@@ -47,7 +47,7 @@ This project was inspired by [Zach Wilson](https://www.linkedin.com/in/eczachly)
 
 ## The Dimensional Model
 
--- Image placeholder --
+![](./Resources/DimModel.png)
 
 I admit that the ETL unnecessarily recomputes some dimensions like `environmentdimension` and `timeofdaydimension`, because they can be computed in SQL beforehand to contain all possiblevalues. But, I thought that this would be better decision, because it documents the model inside the ETL pipeline itself.
 
