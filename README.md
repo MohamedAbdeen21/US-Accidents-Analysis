@@ -4,7 +4,7 @@
 
 This project was made to practice some of my most recent acquired skills like Pyspark, Pyspark Structured Streaming, Kafka, and Kimball Data Warehousing. Along the way, I also picked up on some SQL and Pyspark tricks and optimizations, and Apache Superset. 
 
-Since I couldn't find any streaming source APIs that I was interested in (most of those are in finanace, stocks, crypto, etc..), I decided to fetch a dataset and stream data from it. The dataset of choice was Kaggle's [US-Accidents](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents). The exploration of the dataset, some of the reasons why I chose certain tool can be find in [this](https://github.com/MohamedAbdeen21/US-accidents-analysis-notebooks) repo. The dimensional model design will be included here. 
+Since I couldn't find any streaming source APIs that I was interested in (most of those are in finanace, stocks, crypto, etc..), I decided to fetch a dataset and stream data from it. The dataset of choice was Kaggle's [US-Accidents](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents). The exploration of the dataset, some of the reasons why I chose certain tools can be find in [this](https://github.com/MohamedAbdeen21/US-accidents-analysis-notebooks) repo. The dimensional model design will be included here. 
 
 This project was inspired by [Zach Wilson](https://www.linkedin.com/in/eczachly) and [HashtagCashtag](https://github.com/shafiab/HashtagCashtag).
 
@@ -55,9 +55,4 @@ The date dimension was fully created using PostgreSQL built-in functions beforeh
 
 ## The Dashboard
 
--- Image placeholder --
-
-
-
-
-
+![](Resources/dashboard.jpg)
