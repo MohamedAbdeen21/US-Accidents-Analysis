@@ -1,5 +1,5 @@
-from pyspark.sql.functions import timestamp_seconds, unix_timestamp, split, lit, year, to_timestamp, when
-from pyspark.sql.types import FloatType, LongType, TimestampType, ByteType, IntegerType, DoubleType, BooleanType
+from pyspark.sql.functions import  unix_timestamp, split, lit
+from pyspark.sql.types import FloatType, TimestampType, ByteType, IntegerType, DoubleType, BooleanType
 from pyspark.sql import SparkSession
 from config import *
 from os import rename, listdir

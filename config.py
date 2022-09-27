@@ -1,4 +1,4 @@
-RUNTIME = 60 * 60 
+RUNTIME = 60 * 60
 
 # Kafka
 SERVER_PORT = "localhost:9092"
