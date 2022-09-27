@@ -104,6 +104,6 @@ REFRESH_RATE = RUNTIME / (6 * 12 * 4) # weekly
 query = new_df \
         .writeStream \
         .outputMode('append') \
-        .trigger(processingTime = '20 seconds') \
+        .trigger(processingTime = f'{REFRESH_RATE} seconds') \
         .foreachBatch(load) \
         .start().awaitTermination()
